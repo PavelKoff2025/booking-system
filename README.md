@@ -126,18 +126,6 @@ python main.py
 
 ## Ссылка на GitHub
 
-```
-<вставьте URL репозитория после публикации>
-```
-
-### Публикация на GitHub
-
-```bash
-git init
-git add .
-git commit -m "Система бронирования: базовый и средний уровни"
-gh auth login
-gh repo create booking-system --public --source=. --push
-```
+**https://github.com/PavelKoff2025/booking-system**
 
 Файл `.env` в репозиторий не попадает (см. `.gitignore`). Секреты храните только локально.
